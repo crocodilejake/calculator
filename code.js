@@ -1,9 +1,11 @@
 function () {
+var number1 = 
+var sign;
 var i;
-
-for (i = 0, ) {
+var text1 ="";
+for (i = 0, i < number1.length ) {
 
 }
 
-document.Get
+document.getElementById("answer").innerHTML 
 }
