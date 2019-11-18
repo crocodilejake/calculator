@@ -9,7 +9,7 @@ var text3 ="&& number2 =";
 var text4 =") {answer =";
 var text5="}";
 
-for (i = 0, i < number1.length ) {
+for (i = 0, i < number1.length, i++ ) {
 
 }
 
