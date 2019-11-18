@@ -1,5 +1,5 @@
 function () {
-var number1 =;
+var number1 =[];
 var number2 =;
 var sign;
 var i;
