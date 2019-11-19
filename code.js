@@ -5,7 +5,7 @@ var number2 = ["one", "two", "three", "four", "five", "six", "seven", "eight", "
 var realNumber2 = 0;
   var sign;
 var i;
-var answer = ;
+var answer = realNumber1 + realNumber2;
 var text1 ="else if(number1 ==";
 var text2 ="&& sign =";
 var text3 ="&& number2 =";
