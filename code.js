@@ -15,7 +15,7 @@ var text2 ="&& sign =";
 var text3 ="&& number2 =";
 var text4 =") {answer =";
 var text5="}";
-for (x = 0, x <) {
+for (x = 0, x < number2.length, x++) {
   realNumber2 + 1;
   number2[i]
 for (i = 0, i < number1.length, i++, realNumber1 ) {
