@@ -5,7 +5,7 @@ var sign =["plus", "minus", "times", "divided"];
 var i;
 var x;
 var y;
-var text1 ="else if(number1 ==";
+var text1 ="else if(number1 =T=";
 var text2 ="&& sign =";
 var text3 ="&& number2 =";
 var text4 =") {answer =";
@@ -13,12 +13,13 @@ var text5="}";
 var code = "";
 var answer = "";
 //Way more efficient way to do this, but screw that.
-for (i < sign.length, i++) {
-sign[i];
-for (x < 100, x++) {
-x + 1;
-for (y < 100, y++) {
-if (sign == "plus" ) {
+for (i < sign.length; i++;) {
+//Change sign
+for (x = 0; x < 100; x++) {
+//Change number 1
+for (y = 0; y < 100; y++) {
+
+if (sign == "plus") {
 answer = x + y;
 }
 else if (sign == "minus") {
