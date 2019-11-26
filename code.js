@@ -13,11 +13,11 @@ var text5="}";
 var code = "";
 var answer = "";
 //Way more efficient way to do this, but screw that.
-for (i < 4, i++) {
+for (i < sign.length, i++) {
 sign[i];
-for (x < 50, x++) {
+for (x < 100, x++) {
 x + 1;
-for (y < 50, y++) {
+for (y < 100, y++) {
 if (sign == "plus" ) {
 answer = x + y;
 }
