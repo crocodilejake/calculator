@@ -1,7 +1,7 @@
 function freeLabor () {
-var num1 = ;
-var num2 = ;
-var sign =["+", "-", "*", "/"];
+var num1 = 0;
+var num2 = 0;
+var sign =["plus", "minus", "times", "divided"];
 var i;
 var x;
 var y;
@@ -10,21 +10,33 @@ var text2 ="&& sign =";
 var text3 ="&& number2 =";
 var text4 =") {answer =";
 var text5="}";
-var code =;
+var code = "";
+var answer = "";
 //Way more efficient way to do this, but screw that.
 for (i < 4, i++) {
 sign[i];
 for (x < 50, x++) {
 x + 1;
 for (y < 50, y++) {
-var answer = x*y;
+if (sign == "plus" ) {
+answer = x + y;
+}
+else if (sign == "minus") {
+ answer = x - y; 
+}
+else if(sign == "times") {
+answer = x * y;
+}
+else {
+answer = x / y;
+}
 code += text1 + num1 + text2 + sign + text3 + num2 + text4 + answer + text5 +"<br>";
 }
 }
   
 }
 document.getElementByID("answer").innerHTML = code;
-console.log(code)
+console.log(code);
 }
 
 
