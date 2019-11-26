@@ -2,7 +2,50 @@
 </html>
 <head>
 <title> My first calculator </title>
-  <script src="code.js"></script>
+  <script>
+  
+function freeLabor () {
+var num1 = 0;
+var num2 = 0;
+var sign =["plus", "minus", "times", "divided"];
+var i;
+var x;
+var y;
+var text1 ="else if(number1 ==";
+var text2 ="&& sign =";
+var text3 ="&& number2 =";
+var text4 =") {answer =";
+var text5="}";
+var code = "";
+var answer = "";
+//Way more efficient way to do this, but screw that.
+for (i < sign.length, i++) {
+sign[i];
+for (x < 100, x++) {
+x + 1;
+for (y < 100, y++) {
+if (sign == "plus" ) {
+answer = x + y;
+}
+else if (sign == "minus") {
+ answer = x - y; 
+}
+else if(sign == "times") {
+answer = x * y;
+}
+else {
+answer = x / y;
+}
+code += text1 + num1 + text2 + sign + text3 + num2 + text4 + answer + text5 +"<br>";
+}
+}
+  
+}
+document.getElementByID("answer").innerHTML = code;
+console.log(code);
+}
+
+</script>
 </head>
 <body>
 <div id="calculatorContainer">
